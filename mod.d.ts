@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2023 The Stdlib Authors.
@@ -16,26 +16,27 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { ndarray, Strides } from '@stdlib/types/ndarray';
 
 /**
-* Return the strides of a provided ndarray.
+* Returns the strides of a provided ndarray.
 *
-* @module @stdlib/ndarray-strides
+* @param x - input ndarray
+* @returns strides
 *
 * @example
-* var zeros = require( '@stdlib/ndarray-zeros' );
-* var strides = require( '@stdlib/ndarray-strides' );
+* var zeros = require( `@stdlib/ndarray/zeros` );
 *
 * var sh = strides( zeros( [ 3, 3, 3 ] ) );
 * // returns [ 9, 3, 1 ]
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function strides( x: ndarray ): Strides;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = strides;

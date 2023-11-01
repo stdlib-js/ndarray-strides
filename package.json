@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "@stdlib/bench": "^0.1.0",
-    "@stdlib/ndarray-slice": "github:stdlib-js/ndarray-slice#main",
+    "@stdlib/ndarray-slice": "^0.1.0",
     "@stdlib/ndarray-zeros": "^0.1.0",
     "@stdlib/slice-ctor": "^0.1.0",
     "@stdlib/slice-multi": "^0.1.0",

@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-strides@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-strides/tags). For example,
+
+```javascript
 import strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-strides@v0.2.0-esm/index.mjs';
 ```
 
@@ -101,7 +106,7 @@ import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@esm/index
 import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-slice@esm/index.mjs';
 import E from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-multi@esm/index.mjs';
 import S from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@esm/index.mjs';
-import strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-strides@v0.2.0-esm/index.mjs';
+import strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-strides@esm/index.mjs';
 
 // Create an array:
 var x = zeros( [ 10, 10, 10, 10 ] );

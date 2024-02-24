@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-strides@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-strides/tags). For example,
+
+```javascript
 import strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-strides@v0.2.1-deno/mod.js';
 ```
 
@@ -96,7 +101,7 @@ import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@deno/mod.
 import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-slice@deno/mod.js';
 import E from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-multi@deno/mod.js';
 import S from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@deno/mod.js';
-import strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-strides@v0.2.1-deno/mod.js';
+import strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-strides@deno/mod.js';
 
 // Create an array:
 var x = zeros( [ 10, 10, 10, 10 ] );
